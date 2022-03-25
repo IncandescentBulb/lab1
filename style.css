@@ -19,7 +19,13 @@ body {
  font-size: 20px;
  padding:4px;
 }
-
+footer {
+ font-family: Futura, Trebuchet MS;
+ font-weight: bold condensed;
+ color: #120025; 
+ font-size: 21px;
+ padding:1px;
+}
 #content {
     padding:3px;
 }
@@ -50,4 +56,9 @@ body {
    background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
 
    border: 1px solid #666; /* dark outline */
+}
+nav li:active {
+  background-color: #ccc;
+  background-image: none;
+  box-shadow: inset 0 3px 3px rgba(0, 0, 0, .2);
 }
